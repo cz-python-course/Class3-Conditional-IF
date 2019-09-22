@@ -16,17 +16,22 @@ In most software, we want an action to happen, if some condition is satisfied. T
 ## Comparing values
 Below is a table containing the Comparison signs we use in python. Those signs should be used in statements that require a comparison.
 
-| Comparing Sign |      Meaning     |
-|:--------------:|:----------------:|
-| ==             | equals           |
-| >              | Greater than     |
-| >=             | Greater or equal |
-| <              | Less than        |
-| <=             | Less or equal    |
+| Comparing Sign |      Meaning         |
+|:--------------:|:--------------------:|
+| ==             | equals               |
+| >              | Greater than         |
+| >=             | Greater or equal     |
+| <              | Less than            |
+| <=             | Less or equal        |
+
+You can also add two keywords to include more than one condition in the statement:
+
+- **and**: Adds another condition, and both conditions have to be true
+- **or**: Adds another condition, and at least one of the conditions have to be true
 
 
 ## If
-We use this everyday in our lifes, in many different places:
+We use this everyday in our life, in many different places:
 
 - You can **eat some candy** if you *ate your lunch*
 - I will **schedule a meeting for today** if i *have a free time on my agenda*
@@ -113,7 +118,7 @@ c = 30
 if a < b and a < c:
   print('a is has the lowest value')
 ```
-
+>You can add multiple conditions using the keyword *and*.
 
 # Exercise
 > The exercise is an update of the last class exercise. Your *main.py* file already has the complete exercise from the last class.
