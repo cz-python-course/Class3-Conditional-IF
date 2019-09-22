@@ -123,7 +123,7 @@ if a < b and a < c:
 # Exercise
 > The exercise is an update of the last class exercise. Your *main.py* file already has the complete exercise from the last class.
 
-Update the exercise from last class to show a message to the user, based on the number of cups of coffee taken:
+Update the exercise from last class to show a message to the user, based on the average number of cups of coffee taken:
 
 | < 5        | 5    | > 5                |
 |:----------:|:----:|:------------------:|
