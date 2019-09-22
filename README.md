@@ -1,7 +1,28 @@
 # Conditionals
+- [Conditionals](#conditionals)
+  - [Comparing values](#comparing-values)
+  - [If](#if)
+  - [else](#else)
+  - [elif](#elif)
+- [Examples](#examples)
+  - [Simple IF](#simple-if)
+  - [Multiple Conditions in one if statement](#multiple-conditions-in-one-if-statement)
+- [Exercise](#exercise)
+
 In most software, we want an action to happen, if some condition is satisfied. The way we think about this is: 
 
 >Only do **X** if *Y* condition is true
+
+## Comparing values
+Below is a table containing the Comparison signs we use in python. Those signs should be used in statements that require a comparison.
+
+| Comparing Sign |      Meaning     |
+|:--------------:|:----------------:|
+| ==             | equals           |
+| >              | Greater than     |
+| >=             | Greater or equal |
+| <              | Less than        |
+| <=             | Less or equal    |
 
 
 ## If
@@ -29,7 +50,11 @@ if age > 18:
 
 But, what if the user does not meet the condition? Should we add another *if* statement? We could, but there is a better way to do it.
 
-The *else* statement is used to represent the case when the *if* statement is false, or when the condition is not fulfilled. Updating the driving example:
+The *else* statement is used to represent the case when the *if* statement is false, or when the condition is not fulfilled.
+
+> Remember: The else statement does not have a condition
+
+Updating the driving example:
 
 ```python
 age = int(input('what is your age'))
@@ -60,11 +85,41 @@ else:
   print('Sorry, you can't drive')
 ```
 
+# Examples
+
+## Simple IF
+Check if one condition is true
+
+```python
+# Declaring variables to compare
+a = 10
+b = 20
+
+# Comparing
+if a < b:
+  print('a is greater than b')
+
+```
+
+## Multiple Conditions in one if statement
+This is used when you need multiple conditions to enter the *if* or *elif* block:
+
+```python
+# Declaring variables to compare
+a = 10
+b = 20
+c = 30
+
+if a < b and a < c:
+  print('a is has the lowest value')
+```
+
+
 # Exercise
->This exercise is an update of the last class exercise
+> The exercise is an update of the last class exercise. Your *main.py* file already has the complete exercise from the last class.
 
 Update the exercise from last class to show a message to the user, based on the number of cups of coffee taken:
 
-| <5         | 5    | >5                 |
-|------------|------|--------------------|
+| < 5        | 5    | > 5                |
+|:----------:|:----:|:------------------:|
 | Drink more | Good | You drank too much |
