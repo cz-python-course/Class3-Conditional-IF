@@ -33,7 +33,7 @@ You can also add two keywords to include more than one condition in the statemen
 ## If
 We use this everyday in our life, in many different places:
 
-- You can **eat some candy** if you *ate your lunch*
+- You can **eat some candy** if you *eat your lunch*
 - I will **schedule a meeting for today** if i *have a free time on my agenda*
 
 In python, we use a syntax like the following:
